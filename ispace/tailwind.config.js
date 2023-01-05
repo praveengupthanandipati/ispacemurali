@@ -40,7 +40,13 @@ module.exports = {
         '6': '6px',
         '8': '8px',
       },
-    extend: {},
+    extend: {
+      backgroundImage: {
+   
+        'bg-image-custom': "url('https://ispace.com/wp-content/themes/im/images/Blok_bg1.jpg')",
+    
+      }
+    },
   },
   plugins: [],
 }
