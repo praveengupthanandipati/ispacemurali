@@ -51,16 +51,7 @@
                   <div class="flex justify-end">
                      <ul class="flex flex-wrap list-reset pl-0 mb-0 navbar-mobile mr-0 rightNav">
                      <li class="p-5"><a class="active" href="#">Home</a></li>
-                     <li>
-                        <div class="dropdown">
-                           <a href="#">Dropdown</a>
-                           <div class="dropdown-content">
-                             <a href="#">Link 1</a>
-                             <a href="#">Link 2</a>
-                             <a href="#">Link 3</a>
-                           </div>
-                         </div>
-                     </li>
+                    
                      <li class="flex space-x-4">
                         <button id="dropdown1-button" data-dropdown-toggle="dropdown1" class="flex justify-between items-center py-2 pr-4 pl-3 p-5 w-full font-medium text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">
                            About Us 
@@ -586,17 +577,18 @@
           <!--  <img src="https://ispace.com/wp-content/themes/im/images/Blocks.png" style="position:relative;"><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>-->
       </div>
   </section>
+  </main>
 
 
-  <footer>
+  <footer class="bg-gray-900" >
    <!-- top footer -->
-   <section class="topFooter container mt-4">
-       <div class="container mx-auto sm:px-4 mt-10">
-           <div class="topFooterRow">
-               <div class="flex flex-wrap ">
-                   <div class="lg:w-1/5 pr-4 pl-4 footerCol">
-                       <h4 class="h4 uppercase">About us</h4>
-                       <ul class="list-disc">
+   <section class="topFooter pt-12 text-white pb-2 mb-6 text-lg relative">
+       <div class="container">
+           <div class="topFooterRow text-white pb-2 mb-6 text-lg relative">
+               <div class="row">
+                   <div class="col-lg-2 footerCol text-white pb-2 mb-6 text-lg relative">
+                       <h4 class="text-uppercase font-bold text-white pb-2 mb-6 text-lg relative">About us</h4>
+                       <ul>
                            <li><a href="companyOverview">Company Overview</a></li>
                            <li><a href="vision-mission">Vision &amp; Mission</a></li>
                            <li><a href="leadership">Leadership</a></li>
@@ -605,17 +597,17 @@
                            <li><a href="our-certifications-2">Our Certifications</a></li>
                            <li><a href="contact-us">Contact Us</a></li>
                        </ul>
-                       <h4 class="h4 uppercase pt-4">Contact</h4>
+                       <h4 class="h4 text-uppercase pt-4">Contact</h4>
                        <ul>
                            <li><a href="contact-us">Global Locations</a></li>
                        </ul>
                    </div>
 
-                   <div class="lg:w-4/5 pr-4 pl-4">
-                       <div class="flex flex-wrap ">
-                           <div class="lg:w-1/4 pr-4 pl-4 footerCol">
-                               <h4 class="h4 uppercase">IT Services</h4>
-                               <ul class="list-disc marker:text-blue-500">
+                   <div class="col-lg-10">
+                       <div class="row">
+                           <div class="col-lg-3 footerCol text-white pb-2 mb-6 text-lg relative">
+                               <h4 class="h4 text-uppercase font-bold">IT Services</h4>
+                               <ul>
                                    <li><a href="application-managed-services">Application Managed Services</a></li>
                                    <li><a href="data-analytics">Data &amp; Analytics</a></li>
                                    <li><a href="mobility">Mobility</a></li>
@@ -624,8 +616,8 @@
                                    <li><a href="it-staffing">IT Staffing</a></li>
                                </ul>
                            </div>
-                           <div class="lg:w-1/4 pr-4 pl-4 footerCol">
-                               <h4 class="h4 uppercase">Health Care Solutions</h4>
+                           <div class="col-lg-3 footerCol text-white pb-2 mb-6 text-lg relative">
+                               <h4 class="h4 text-uppercase font-bold">Health Care Solutions</h4>
                                <!-- health care solutions accordion-->
                                <div class="accordion accordion-flush" id="accordionFlushExample">
                                    <div class="accordion-item">
@@ -637,10 +629,10 @@
                                                Payer
                                            </button>
                                        </h2>
-                                       <div id="flush-collapseOne" class="accordion-collapse hidden"
+                                       <div id="flush-collapseOne" class="accordion-collapse collapse"
                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                            <div class="accordion-body">
-                                               <ul class="list-disc">
+                                               <ul>
                                                    <li><a href="mobile-member-engagement">AMobile Member Engagement</a>
                                                    </li>
                                                    <li><a href="mmsea-compliance-reporting">MMSEA Compliance
@@ -666,10 +658,10 @@
                                                Provider
                                            </button>
                                        </h2>
-                                       <div id="flush-collapseTwo" class="accordion-collapse hidden"
+                                       <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                            <div class="accordion-body">
-                                               <ul class="list-disc">
+                                               <ul>
                                                    <li><a href="revenue-cycle-management">Revenue Cycle Management</a>
                                                    </li>
                                                    <li><a href="drg-analytics">DRG Analytics</a></li>
@@ -688,11 +680,11 @@
                                                Pharmacy Benefits Management
                                            </button>
                                        </h2>
-                                       <div id="flush-collapseThree" class="accordion-collapse hidden"
+                                       <div id="flush-collapseThree" class="accordion-collapse collapse"
                                            aria-labelledby="flush-headingThree"
                                            data-bs-parent="#accordionFlushExample">
                                            <div class="accordion-body">
-                                               <ul class="list-disc">
+                                               <ul>
                                                    <li><a href="pharmacy-bill-review">Pharmacy Bill Review</a></li>
                                                    <li><a href="over-the-counter">Over the Counter</a></li>
                                                    <li><a href="global-compliance-platform">Pharma Open Payments
@@ -706,9 +698,9 @@
                                <!-- /health care solutions accordion-->
                            </div>
 
-                           <div class="lg:w-1/4 pr-4 pl-4 footerCol">
-                               <h4 class="h4 uppercase">Business Process Services</h4>
-                               <ul class="list-disc">
+                           <div class="col-lg-3 footerCol text-white pb-2 mb-6 text-lg relative">
+                               <h4 class="h4 text-uppercase">Business Process Services</h4>
+                               <ul>
                                    <li><a href="robotic-process-automation">Robotic Process Automation</a></li>
                                    <li><a href="business-process-consulting">Business Process Consulting</a></li>
                                    <li><a href="rpa-revenue-cycle-management">Revenue Cycle Management</a></li>
@@ -716,9 +708,9 @@
                                    <li><a href="dental-bpo-services">Dental BPO Services</a></li>
                                </ul>
                            </div>
-                           <div class="lg:w-1/4 pr-4 pl-4 footerCol">
-                               <h4 class="h4 uppercase">Location Based Services</h4>
-                               <ul class="list-disc">
+                           <div class="col-lg-3 footerCol text-white pb-2 mb-6 text-lg relative">
+                               <h4 class="h4 text-uppercase">Location Based Services</h4>
+                               <ul>
                                    <li><a href="mapping-services">Mapping Services</a></li>
                                    <li><a href="indoor-location">Indoor Location</a></li>
                                    <li><a href="location-based-solutions">Location Based Solutions</a></li>
@@ -730,12 +722,12 @@
                                </ul>
                            </div>
                        </div>
-                       <div class="flex flex-wrap ">
-                           <div class="lg:w-1/2 pr-4 pl-4">
-                               <img src="assets/img/certifications/footer-logos6.png" alt="" class="max-w-full h-auto">
+                       <div class="row">
+                           <div class="col-lg-6">
+                               <img src="assets/img/certifications/footer-logos6.png" alt="" class="img-fluid">
                            </div>
                            <div
-                               class="lg:w-1/2 pr-4 pl-4 text-md-end footerSocial md:pt-12 flex slign-self-center md:justify-end">
+                               class="col-lg-6 text-md-end footerSocial pt-md-5 d-flex slign-self-center justify-content-md-end">
                                <a href="https://twitter.com/iSpace_Inc_" target="_blank"><span
                                        class="icon-twitter icomoon"></span></a>
                                <a href="https://www.facebook.com/iSpaceInc/" target="_blank"><span
@@ -752,17 +744,16 @@
    </section>
    <!--/ top footer -->
    <!-- bottom footer -->
-   <section class="bottomFooter md:py-4">
-       <div class="container mx-auto sm:px-4">
+   <section class="bottomFooter py-md-3">
+       <div class="container">
            <p class="pb-0 mb-0">
-               <span>Copyrights © 2018 iSpace </span> <span class="inline-block px-3">|</span>
+               <span>Copyrights © 2018 iSpace </span> <span class="d-inline-block px-3">|</span>
                <a href="privacy-policy-2">Terms &amp; Conditions</a>
            </p>
        </div>
    </section>
    <!--/ bottom footer -->
 </footer>
-
         
     </main>    
       <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
