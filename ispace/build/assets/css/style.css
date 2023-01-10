@@ -1056,3 +1056,11 @@ li {
 #myBtn:hover {
   background-color: #555;
 }
+
+.dropdown-area {
+  display: none;
+}
+
+.dropdown-area.block {
+  display: block;
+}
