@@ -31,7 +31,7 @@
    <body>
       <!-- component -->
       <!-- This is an example component -->
-      <header class="block uppercase text-black border-b-2 pb-0 pl-2 pr-2 pt-0">
+      <header class="block uppercase text-black border-b-2 pb-0 pl-2 pr-2 pt-0 container">
          <div class="container mx-auto">
             <div class="flex flex-wrap justify-between">
                <div class="">
@@ -239,6 +239,12 @@
                      class="block w-full"
                      alt="Wild Landscape"
                      />
+                     <div class="carousel-caption pb-5 text-center absolute pt-5 text-white left-5 right-5 top-3 bottom-5">
+                     <h1 class="cap-txt wow fadeInUp animated">IT Services</h1>
+                     <p data-animation="animated fadeInUp">Mobility,
+                         Analytics, Dev Ops and Cloud solutions
+                     </p>
+                 </div>
                </div>
                <div class="carousel-item float-left w-full">
                   <img
@@ -246,6 +252,13 @@
                      class="block w-full"
                      alt="Camera"
                      />
+                     <div class="carousel-caption pb-5 text-center absolute pt-5 text-white left-5 right-5 top-3 bottom-5">
+                        <h1 class="cap-txt animate__animated
+                            animate__zoomInDown">Healthcare Solutions</h1>
+                        <p data-animation="animated fadeInUp">Technology,
+                            Business Process and SaaS solutions
+                            for Payors and Providers</p>
+                    </div>
                </div>
                <div class="carousel-item float-left w-full">
                   <img
@@ -253,6 +266,13 @@
                      class="block w-full"
                      alt="Exotic Fruits"
                      />
+                     <div class="carousel-caption pb-5 text-center absolute pt-5 text-white left-5 right-5 top-3 bottom-5">
+                        <h1 class="cap-txt wow fadeInUp animated">Business
+                            Process Services</h1>
+                        <p data-animation="animated fadeInUp">Automated and
+                            rightsourced solutions for
+                            conventional to highly cognitive business processes</p>
+                    </div>
                </div>
                <div class="carousel-item float-left w-full">
                   <img
@@ -260,15 +280,22 @@
                      class="block w-full"
                      alt="Exotic Fruits"
                      />
+                     <div class="carousel-caption pb-5 text-center absolute pt-5 text-white left-5 right-5 top-3 bottom-5">
+                        <h1 class="cap-txt wow fadeInUp animated">Location Based
+                            Services</h1>
+                        <p data-animation="animated fadeInUp">Maps and
+                            Navigation Services layered with location
+                            based insights</p>
+                    </div>
                </div>
             </div>
          </div>
-         <section class="trustedPartner">
+         <section class="trustedPartner container p-5">
             <div class="container text-center">
-               <h5 class="fbold pb-3 font-bold m-4">A trusted partner of choice for your
+               <h1 class="fbold pb-3 font-bold m-4">A trusted partner of choice for your
                   technology and business process solutions since
                   2000
-               </h5>
+               </h1>
                <p class="text-muted">iSpace is a premier technology and business
                   process services company serving
                   Healthcare, Automotive,
@@ -343,7 +370,7 @@
                   <div class="col-lg-4 col-md-4 col-sm-6">
                      <div class="box hover:scale-1 hover:text-center relative group">
                         <img src="./assets/img/healthcareBx1.png">
-                        <div class="box-content">
+                        <div class="box-content relative group">
                            <div class="absolute top-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-out hover:ease-in bg-blue-500 text-center">
                               <h4 class="title font-bold mb-3 text-white">Revenue Cycle Management</h4>
                               <p class="description text-white">Mapping solutions ranging
@@ -354,7 +381,7 @@
                               <!-- <a href="#" class="thm-btn style-2">Readmore</a> -->
                            </div>
                         </div>
-                        <div class="heading w-full absolute bottom-0 left-0 text-white text-center bg-black p-5 hover:invisible">
+                        <div class="heading w-full absolute bottom-0 left-0 text-white text-center bg-black p-5 visible hover:invisible">
                            <h3>Revenue Cycle Management</h3>
                         </div>
                      </div>
@@ -577,10 +604,10 @@
          <section class="p-1 text-gray-900 pb-5 mb-6 text-xl relative bottom-0 flex pl-4 shadow-none mr-auto justify-center items-center flex-col ml-2 font-bold w-100 h-100">
             <div class="container">
                <!-- top footerrow -->
-               <div class="text-blue-500 pb-5 mb-6 text-xs relative w-100 h-100 bottom-0  pl-4 shadow-none mr-auto font-bold box-border  p-5 w-100 h-100 border-2">
+               <div class="text-blue-500 pb-5 mb-6 text-xs relative w-100 h-100 bottom-0  pl-4 shadow-none mr-auto font-bold box-border  p-5 w-100 h-100 border-none">
                   <div class="row">
                      <div class="col-lg-2 text-white pb-5 mb-6 text-sm w-100 h-100 left-0 bottom-0 inline-block pl-2 pt-1 box-border border-2 border-none">
-                        <h4 class="h4 text-uppercase font-bold underline-offset-auto border-b">About us</h4>
+                        <h4 class="h4 text-uppercase font-bold underline-offset-auto border-b-2 border-blue-500">About us</h4>
                         <ul class="list-disc">
                            <li><a href="companyOverview">Company Overview</a></li>
                            <li><a href="vision-mission">Vision &amp; Mission</a></li>
@@ -734,8 +761,10 @@
                </div>
             </div>
          </section>
+         </footer>
          <!--/ top footer -->
          <!-- bottom footer -->
+         <footer>
          <section class="bottomFooter bg-black">
             <div class="container">
                <p class="pb-0 mb-0">
