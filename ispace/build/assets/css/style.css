@@ -524,25 +524,6 @@ li {
   font-weight: 600;
 }
 
-.carousel-indicators li {
-  background-color: #b3b5b9;
-  border-radius: 10px;
-  cursor: pointer;
-  display: inline-block;
-  height: 12px;
-  margin: 1px;
-  text-indent: -999px;
-  width: 12px;
-  border: 0;
-}
-
-.carousel-indicators .active {
-  background-color: #041132;
-  height: 12px;
-  margin: 0;
-  width: 12px;
-  border: 0;
-}
 
 #owl-demo h1 {
   -webkit-animation-delay: 1s;
@@ -1063,4 +1044,11 @@ li {
 
 .dropdown-area.block {
   display: block;
+}
+
+.carousel-item article{
+  width:50%;
+  top:50%;
+  left:5%;
+  margin-top:-20px;
 }
