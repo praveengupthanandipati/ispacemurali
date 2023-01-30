@@ -315,14 +315,13 @@ li {
   height: 100%;
 }
 
-.vision_mission {
+#overlay_img {
   background-color: #7a7a7a;
   background-image: url('../img/visionBg.jpg');
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  background-attachment: fixed;
+  width: auto;
+  height: 490px;
+  background-color: black;
+
 }
 
 .carousel-caption {
