@@ -129,47 +129,47 @@ header .bsnav {
   color: #00AEEF;
 }
 
-.topFooter .topFooterRow .accordion {
+.topFooter .topFooterRow {
   background: none;
   color: #fff;
 }
 
-.topFooter .topFooterRow .accordion .accordion-item,
-.topFooter .topFooterRow .accordion .accordion-button {
+.topFooter .topFooterRow ,
+.topFooter .topFooterRow {
   background: none;
   color: #fff;
   border: none;
   padding: 5px;
 }
 
-.topFooter .topFooterRow .accordion .accordion-item:focus,
-.topFooter .topFooterRow .accordion .accordion-button:focus {
+.topFooter .topFooterRow ,
+.topFooter .topFooterRow  {
   box-shadow: none;
   border: none;
 }
 
-.topFooter .topFooterRow .accordion .accordion-button {
+.topFooter .topFooterRow .accordion-button {
   padding-left: 15px;
 }
 
-.topFooter .topFooterRow .accordion .accordion-button:after {
+.topFooter .topFooterRow .accordion-button:after {
   margin-right: auto;
   position: absolute;
   left: 0;
   display: none;
 }
 
-.topFooter .topFooterRow .accordion .accordion-button i {
+.topFooter .topFooterRow .accordion-button i {
   position: relative;
   left: -21px;
   color: #00AEEF;
 }
 
-.topFooter .topFooterRow .accordion .accordion-item .accordion-body {
+.topFooter .topFooterRow  .accordion-body {
   padding: 0 0 0 5px;
 }
 
-.topFooter .topFooterRow .accordion .accordion-item .accordion-body li a {
+.topFooter .topFooterRow  .accordion-body li a {
   font-size: 12px;
   padding-bottom: 0;
 }
@@ -1088,3 +1088,4 @@ li {
   height: 300px;
   
 }
+

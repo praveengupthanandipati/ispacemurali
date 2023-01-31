@@ -1,0 +1,8 @@
+#profile-toggle:focus + #profile {
+    display: block;
+}
+  
+  #acc-Img{
+    max-width: 100%;
+    height: 500px;
+}
